@@ -28,7 +28,7 @@ const fetchData = async (number) => {
   try {
     if (number) {
       const response = await axios.get(
-        `http://127.0.0.1:8000/api/SmS/${number}`,
+        `https://foxsoftmail.com/api/sms/${number}`,
         {
           headers: {
             "Content-Type": "application/json", // Set the content type as needed

@@ -19,7 +19,7 @@ import Messages from './Messages.vue';
     // Make sure the variable you want to encode is defined
 
     try {
-      const response = await axios.get('http://127.0.0.1:8000/api/myNumber', {
+      const response = await axios.get('https://foxsoftmail.com/api/myNumber', {
         headers: {
           'Content-Type': 'application/json' // Set the content type as needed
         }
